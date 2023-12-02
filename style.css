@@ -1,0 +1,182 @@
+/* FORMATAÇÕES GERAIS */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 15px; /* DEFINE O TAMANHO DE TODAS AS FONTES DA PÁGINA */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6; /* DEFINE A COR DA PÁGINA COMO UM CINZA BEM CLARO */
+}
+/* FIM FORMATAÇÕES GERAIS */
+
+/* LAYOUT */
+
+/* BARRA DE NAVEGAÇÃO */
+
+#navigation{
+    margin: 0 auto; /* FAZ COM QUE O CORPO DA BARRA OCUPE DE ESQUERDA A DIREITA DA PÁGINA */
+    background-color: #6b8a4e; /* DEFINE O FUNDO DA BARRA DE NAVEGAÇÃO */
+    overflow: auto; /* FAZ COM QUE A BARRA CUBRA A IMAGEM QUE ESTÁ FLUTUANDO */
+    text-align: center; /* ALINHA O TEXTO NO CENTRO DA BARRA DE NAVEGAÇÃO */
+}
+
+#logo{
+    float: left; /* FLUTUAR A IMAGEM A ESQUERDA PARA TEXTO FICAR NA DIREITA */
+    margin-left: 15px; /* DESENCOSTA A IMAGEM DO CANTO ESQUERDO DA TELA */
+}
+
+#links{ /* CAIXA DE LINKS */
+    margin: 0 auto; /* CENTRALIZA A CAIXA NO MEIO DA BARRA DE NAVEGAÇÃO */
+    width: 370px; /* DEFINE UM LARGURA PARA A CAIXA DOS LINKS */
+    margin-top: 20px; /* DESENCOSTA DO TOPO DA PÁGINA */
+}
+
+.tittle{ /* NOME DA EMPRESA */
+    font-size: 2em; /* TAMANHO DO TÍTULO */
+    margin: 10px; /* AFASTA O LINK DE OUTROS ELEMENTOS */
+}
+
+/* FIM BARRA DE NAVEGAÇÃO */
+
+/* ÁREAS DAS PÁGINAS */
+
+#area-conteudos{ /* CAIXA DE AREA DE CONTEUDOS */
+    width: 1140px; /* TAMANHO DA CAIXA */
+    margin: 0 auto; /* CENTRALIZA A CAIXA NO MEIO DA PAGINA */
+    overflow: auto;
+}
+
+#area-galeria{
+    width: 1525px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#area-sobre{
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* FIM ÁREAS DAS PÁGINAS */
+
+/* ÁREA DE CONTEÚDOS */
+
+.conteudo{ /* CAIXA DE CONTEUDO */
+    width: 500px;
+    padding: 15px; /* AFASTA ELEMENTOS DA BORDA DA CAIXA */
+    margin: 20px; /* AFASTA AS CAIXAS DE OUTRAS CAIXAS */
+    background-color: #6b8a4e; /* DEFINE COR DO FUNDO DA PÁGINA */
+    overflow: auto; /* FAZ COM QUE A CAIXA CUBRA A IMAGEM QUE ESTÁ FLUTUANDO */
+    border-radius: 20px;
+    text-align: center;
+    float: left;
+}
+
+.conteudoterrario{ /* CAIXA DE CONTEUDO */
+    width: 500px;
+    padding: 15px; /* AFASTA ELEMENTOS DA BORDA DA CAIXA */
+    margin: 20px auto 20px auto; /* AFASTA AS CAIXAS DE OUTRAS CAIXAS */
+    background-color: #6b8a4e; /* DEFINE COR DO FUNDO DA PÁGINA */
+    border-radius: 20px;
+    text-align: center;
+}
+
+.conteudosobre{
+    padding: 15px;
+    margin: 20px;
+    background-color: #6b8a4e;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+.conteudocontato{
+    background-color: #6b8a4e;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.imagemgaleria{
+    padding: 10px;
+    margin: 15px;
+    background-color: #6b8a4e;
+    border-radius: 20px;
+    float: left;
+}
+
+/* FIM ÁREA DE CONTEÚDOS */
+
+/* FORMATAÇÃO DE IMAGENS DENTRO DOS CONTEÚDOS */
+
+.conteudo img{
+    float: left; /* FLUTUAR A IMAGEM A ESQUERDA PARA TEXTO FICAR NA DIREITA */
+    border-radius: 20px;
+    border: solid white 2px;
+}
+
+.conteudoterrario img{
+    border-radius: 20px;
+    border: solid white 2px;
+}
+
+.conteudosobre img{
+    float: left;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: solid white 2px;
+}
+
+.imagemgaleria img{
+    width: 200px;    
+    border-radius: 20px;
+    border: solid white 2px;
+}
+
+/* FIM FORMATAÇÃO DE IMAGENS DENTRO DOS CONTEÚDOS */
+
+/* FORMATAÇÃO DOS LINKS */
+
+a{
+    text-decoration: none; /* TIRA A _ DO LINK */
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 2px;
+    color: white; /* COR DO LINK */
+}
+
+a:hover{
+    color: #6b8a4e;
+    background-color: white;
+    transition: 0.3s;
+}
+
+/* FORMATAÇÃO DOS LINKS DE CONTATO */
+.conteudocontato a{
+    font-size: 2em;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: inline-block; 
+}
+
+/* FIM FORMATAÇÃO DOS LINKS */
+
+/* FORMATAÇÕES GERAIS */
+p{
+    color: white;
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+h1{
+    margin-bottom: 15px;
+    color: white;
+}
+
+.conteudocontato h1{
+    font-size: 3.5em;
+}
